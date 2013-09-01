@@ -4599,6 +4599,7 @@ input[type="submit"].btn.btn-mini {
   display: block;
   float: left;
   margin: 0 10px 0 0;
+  height: 40px;
 }
 
 .navbar .nav.pull-right {
