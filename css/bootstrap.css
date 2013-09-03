@@ -106,6 +106,9 @@ img {
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
+img.brand{
+	height: 40px;
+}
 
 #map_canvas img,
 .google-maps img {
