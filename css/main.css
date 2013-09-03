@@ -2,26 +2,10 @@ body{
         font-family: 'Open Sans', Helvetica, Arial, sans-serif;
       } 
 	  
-a.brand{
-	width: 20%;
-}
-
-.brand .img{
+.container{
 	height: 40px;
-}
-
-
-.navbar .brand{
-	padding-right: 5px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 12px;
-}
-
-.navbar .nav {
-	padding-top: 5px;
-}
-
-.row-fluid{
+	}
+	
+.F_header {
 	text-align: center;
-}
+	}
