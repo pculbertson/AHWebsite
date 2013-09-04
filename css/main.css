@@ -3,13 +3,12 @@ body{
       } 
 	  
 a.brand{
-	width: 20%;
+	width: 225px;
 }
 
 .brand .img{
 	height: 40px;
 }
-
 
 .navbar .brand{
 	padding-right: 5px;
@@ -18,8 +17,41 @@ a.brand{
 	padding-left: 12px;
 }
 
+@media (min-width:980px){
+.first{
+	padding-top: 70px;
+}
+}
+
+@media (max-width:767px){
+.call{
+	margin-top: 10px;
+}
+}
+
+.call-row{
+	position:relative;
+	height: 100%;
+	margin-bottom: 15px;
+}
+
+.call{
+	padding-top: 12%;
+	padding-bottom: 12%;
+	margin-bottom: 0;
+}
+
+p.pcall{
+	font-size: 24px;
+	line-height: 30px;
+}
+
+p.signup{
+	padding-top: 10px;
+}
+
 .navbar .nav {
-	padding-top: 5px;
+	padding-top: 8px;
 }
 
 .row-fluid{
