@@ -30,13 +30,13 @@
 				<div class="span6 well call">
 						<form action="index.php" method="post">
 						<fieldset>
-						<legend>Volunteer Signup</legend>
+						<legend>Interested in helping on the farm?</legend>
 						<?php 
 							if(isset($_POST['name'])) {  
 
-								$mysqli = getConnection();
+								$mysqli = new mysqli('localhost', 'root', 'ahmysql', 'atlantaharvest');
 
-								if($stmt = $mysqli->prepare("insert into interest values (?, ?, ?)")) {
+								if($stmt = $mysqli->prepare("insert into interest (`name`, `email`, `skill`) values (?, ?, ?)")) {
 	
 									$stmt->bind_param("sss", $_POST['name'], $_POST['email'], $_POST['skill']);
 
@@ -51,15 +51,6 @@
 									$mysqli->close();
 
 								}	
-
-								function getConnection() {
-									$db_hostname = 'localhost';
-									$db_database = 'atlantaharvest';
-									$db_username = 'root';
-									$db_password = 'ahmysql';
-									$mysqli = new mysqli($db_hostname, $db_username, $db_password, $db_database);
-									return $mysqli;
-								}		
 							}					
 						?>
 						<label>Name</label>
