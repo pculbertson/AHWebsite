@@ -82,12 +82,12 @@
 	  <hr>
 		<div class="row-fluid">
 		  <div class="span4 F_header offset4">
-			<p>Get Connected!</p>
+			<h3 class="text-info">Coming Soon!</h3>
 				<div class="social-row">
-					<div class="soc-icon"><a href="mailto:kevinjosue94@gmail.com?Subject=Atlanta Harvest"><i class="icon-envelope-alt icon-2x"></i></a></div>
-					<div class="soc-icon"><a href="http://www.facebook.com"><i class="icon-facebook icon-2x"></i></a></div>
-					<div class="soc-icon"><a href="http://www.twitter.com"><i class="icon-twitter icon-2x"></i></a></div>
-					<div class="soc-icon"><a href="http://www.instagram.com"><i class="icon-instagram icon-2x"></i></a></div>
+					<div class="soc-icon"><a href="#"><i class="icon-envelope-alt icon-2x"></i></a></div>
+					<div class="soc-icon"><a href="#"><i class="icon-facebook icon-2x"></i></a></div>
+					<div class="soc-icon"><a href="#"><i class="icon-twitter icon-2x"></i></a></div>
+					<div class="soc-icon"><a href="#"><i class="icon-instagram icon-2x"></i></a></div>
 				</div>
 			</div>
 		</div>
