@@ -35,10 +35,26 @@ a.brand{
 	margin-bottom: 15px;
 }
 
+input[type="text"]{
+	height: 40px;
+}
+
+.submit-button{
+	padding-top: 10px;
+}
+
 .call{
-	padding-top: 12%;
-	padding-bottom: 12%;
+	padding-top: 3%;
+	padding-bottom: 2%;
 	margin-bottom: 0;
+}
+
+.form-horizontal .controls {
+margin-left: 12%;
+}
+
+.form-horizontal .control-label {
+	width: 10%;
 }
 
 p.pcall{
