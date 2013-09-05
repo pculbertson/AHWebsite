@@ -77,3 +77,44 @@ p.signup{
 .F_header {
 	text-align: center;
 	}
+
+	.sec_title {
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+	color: #333;
+	}
+	
+.sec_text {
+	text-align: left;
+	font-size: 16px;
+	color: #333;
+	}
+	
+.bkgd_one {
+	background-color: #f5f5f5;
+	border-radius: 24px;
+	padding-top: 10px;
+	border-width: 5px;	
+	border-style: double;
+	border-color: #5bb75b;
+	}
+
+p.pcall-emphasis{
+	font-size: 40px;
+	line-height: 40px;
+}
+
+.social-row {
+	overflow: hidden;
+	width: 100%;
+}
+
+.soc-icon {
+	position:relative;
+	width: 25%;
+	display:inline-block;
+	float:left;
+
+
+}
